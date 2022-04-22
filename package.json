@@ -1,0 +1,24 @@
+{
+  "name": "traversy-tailwind-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperkarmic/traversy-tailwind-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperkarmic/traversy-tailwind-2022/issues"
+  },
+  "homepage": "https://github.com/hyperkarmic/traversy-tailwind-2022#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
